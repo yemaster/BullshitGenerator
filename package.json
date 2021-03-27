@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.2",
+    "file-loader": "^6.2.0",
+    "glob": "^7.1.6",
+    "html-webpack-plugin": "^3.2.0",
+    "html-withimg-loader": "^0.1.16",
+    "jquery": "^3.5.1",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^8.0.2",
+    "sweetalert": "^2.1.2",
+    "transfer-webpack-plugin": "^0.1.4",
+    "url-loader": "^3.0.0",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --open --hot",
+    "build": "webpack --progress --hide-modules"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.10.3"
+  },
+  "name": "bull-shit-generator",
+  "version": "2.0.0",
+  "description": "A Edited Version of BullShitGenerator",
+  "main": "index.js",
+  "author": "yemaster",
+  "license": "Anti 996"
+}

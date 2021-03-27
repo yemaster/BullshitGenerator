@@ -1,0 +1,223 @@
+:root {
+	--theme-red-color: #db2828;
+	--theme-orange-color: #f2711c;
+	--theme-yellow-color: #fbbd08;
+	--theme-olive-color: #b5cc18;
+	--theme-green-color: #21ba45;
+	--theme-teal-color: #00b5ad;
+	--theme-blue-color: #2185d0;
+	--theme-violet-color: #6435c9; 
+	--theme-purple-color: #d65aff;
+	--theme-pink-color: #e03997;
+	--theme-brown-color: #a5673f;
+	--theme-grey-color: #978787;
+	--theme-black-color: #1b1c1d;
+}
+::-webkit-scrollbar {
+	width: 5px;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 5px #bebebe;
+	background: #bebebe;
+	transition: all 0.5s;
+}
+::-webkit-scrollbar-thumb:hover {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 5px #aaaaaa;
+	background: #aaaaaa;
+}
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 5px #e0e0e0;
+	border-radius: 0;
+	background: #e0e0e0;
+	opacity: 1;
+}
+
+pre {
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 300 !important;
+}
+
+#main {
+	margin-top: 80px;
+}
+.text-grey {
+	color: #d0d1d2;
+}
+#menu .main-links {
+	max-width: 100%;
+	overflow: auto;
+}
+.score10 {
+	color: #21ba45;
+}
+.score9 {
+	color: #32cb56;
+}
+.score8 {
+	color: #43dc67;
+}
+.score7 {
+	color: #54ed78;
+}
+.score6 {
+	color: #65fe89;
+}
+.score5 {
+	color: #fd4a4a;
+}
+.score4 {
+	color: #f74444;
+}
+.score3 {
+	color: #f03d3d;
+}
+.score2 {
+	color: #e93636;
+}
+.score1 {
+	color: #e22f2f;
+}
+.score0 {
+	color: #db2828;
+}
+.title:not(.active):not(:hover) .statustext {
+	color: var(--theme-grey-color) !important;
+}
+.align-left {
+	text-align: left !important;
+}
+.align-center {
+	text-align: center !important;
+}
+.align-right {
+	text-align: right !important;
+}
+.ui.segment-title.segment {
+	background: #f3f4f5;
+}
+.segment-right-icon {
+	opacity: .2 !important;
+    position: absolute;
+    right: 5px;
+    height: 19px;
+    display: inline-flex;
+    align-items: center;
+}
+.ui.text {
+	transition: color 0.3s;
+}
+.ui.text.red {
+	color: var(--theme-red-color);
+}
+.ui.text.orange {
+	color: var(--theme-orange-color);
+}
+.ui.text.yellow {
+	color: var(--theme-yellow-color);
+}
+.ui.text.olive {
+	color: var(--theme-olive-color);
+}
+.ui.text.green {
+	color: var(--theme-green-color);
+}
+.ui.text.teal {
+	color: var(--theme-teal-color);
+}
+.ui.text.blue {
+	color: var(--theme-blue-color);
+}
+.ui.text.violet {
+	color: var(--theme-violet-color);
+}
+.ui.text.purple {
+	color: var(--theme-purple-color);
+}
+.ui.text.pink {
+	color: var(--theme-pink-color);
+}
+.ui.text.brown {
+	color: var(--theme-brown-color);
+}
+.ui.text.grey {
+	color: var(--theme-grey-color);
+}
+.ui.text.black {
+	color: var(--theme-black-color);
+}
+.loginAndRegisterButton:first-of-type {
+	margin-right: 0.4em !important;
+}
+
+@keyframes fadeInBottom {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+.fadeIn {
+  animation: fadeInBottom 0.2s ease-out 0s;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .25s ease;
+}
+.fade-enter, .fade-leave-active {
+  opacity: 0;
+}
+.child-view {
+  position: absolute;
+  transition: all .25s cubic-bezier(.55,0,.1,1);
+}
+.slide-left-enter, .slide-right-leave-active {
+  opacity: 0;
+  -webkit-transform: translate(30px, 0);
+  transform: translate(30px, 0);
+}
+.slide-left-leave-active, .slide-right-enter {
+  opacity: 0;
+  -webkit-transform: translate(-30px, 0);
+  transform: translate(-30px, 0);
+}
+.ace_gutter {
+    background-color: transparent !important;
+    border-right: 1px solid #a0a1a2;
+}
+.ace_gutter-active-line {
+	background-color: transparent !important;
+}
+.ace_gutter-cell {
+	color: #3e999f !important;
+  	font-family: 'Fira Code' !important;
+}
+.ace_scroller.ace_scroll-left {
+	transition: all 0.3s;
+}
+.ace_cursor {
+	border-left: 1px solid #000 !important;
+}
+.ace_fold {
+	background: none !important;
+	border: none !important;
+	color: #000 !important;
+}
+.ace_fold-widget {
+	opacity: 0 !important;
+	transition: all 0.3s;
+}
+.ace_gutter:hover .ace_fold-widget {
+	opacity: 1 !important;
+}
